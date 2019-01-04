@@ -1,0 +1,10 @@
+#Use for, .split(), and if to create a Statement that will print out words that start with 's':
+mystring = 'Print only the words that start with s in this sentence'
+mystring = 'Print only the words that start with s in this sentence'
+mylist= mystring.split()
+x = 0 
+for item in mylist :
+    newlist = mylist[x] 
+    if newlist[0] == 's' :
+        print(newlist)
+    x+=1 
